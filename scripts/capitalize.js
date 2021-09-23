@@ -5,5 +5,4 @@ function capitalize(string){
 
     return newArr.join('');
 }
-
-module.exports = capitalize;
+export default capitalize;

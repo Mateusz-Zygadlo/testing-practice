@@ -23,4 +23,4 @@ const caesarCipher = (string) => {
     return finalArr.join('');
 }
 
-module.exports = caesarCipher;
+export default  caesarCipher;
