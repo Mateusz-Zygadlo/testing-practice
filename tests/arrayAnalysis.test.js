@@ -1,4 +1,4 @@
-const arrayAnalysis = require('../scripts/arrayAnalysis');
+import arrayAnalysis from '../scripts/arrayAnalysis'
 
 test('first arr', () => {
     expect(arrayAnalysis([1,8,3,4,2,6])).toStrictEqual({
